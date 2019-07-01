@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## The React App
 
-In the project directory, you can run:
+In the main directory, you can run:
 
 ### `npm start`
 
@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## The API
+## The Node (Express) API
 
 In the api/ directory, you can run:
 
@@ -35,7 +35,7 @@ In the api/ directory, you can run:
 
 Runs the api server.<br>
 Open [http://localhost:3001](http://localhost:3001) to verify it is running in the browser.<br><br>
-The API and console make use of these modules:<br>
+### The API and console make use of these modules:<br>
 express: https://github.com/expressjs/express<br>
 morgan: https://github.com/expressjs/morgan<br>
 CORS middleware: https://github.com/expressjs/cors<br>
