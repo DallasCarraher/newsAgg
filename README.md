@@ -34,9 +34,9 @@ In the api/ directory, you can run:
 ### `npm start`
 
 Runs the api server.<br>
-Open [http://localhost:3001](http://localhost:3001) to verify it is running in the browser.
-The API and console make use of these modules:
-express: https://github.com/expressjs/express
-morgan: https://github.com/expressjs/morgan
-CORS middleware: https://github.com/expressjs/cors
-rss-parser: https://github.com/bobby-brennan/rss-parser
+Open [http://localhost:3001](http://localhost:3001) to verify it is running in the browser.<br><br>
+The API and console make use of these modules:<br>
+express: https://github.com/expressjs/express<br>
+morgan: https://github.com/expressjs/morgan<br>
+CORS middleware: https://github.com/expressjs/cors<br>
+rss-parser: https://github.com/bobby-brennan/rss-parser<br>
