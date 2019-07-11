@@ -33,7 +33,7 @@ class Clock extends Component {
     render() {
       return (
         <div>
-          <h2 style={{textAlign: 'center'}}>{this.props.date.toLocaleTimeString()}</h2>
+          <h2 style={{textAlign: 'left', marginLeft: '70px', marginBottom: '20px'}}>{this.props.date.toLocaleTimeString()}</h2>
         </div>
       )
     }

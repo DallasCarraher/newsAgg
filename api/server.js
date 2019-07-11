@@ -16,15 +16,19 @@ const parser = new rssParser({
 })
 
 app.get("/get/rss", async (req, res) => {
-    let feed = await parser.parseURL('https://hnrss.org/frontpage')
-    console.log(feed.title)
+    let ycomHacker = await parser.parseURL('https://hnrss.org/frontpage')
+    console.log(ycomHacker.title)
+    let hackerNoon = await parser.parseURL('https://medium.com/feed/@hackernoon')
+    console.log(hackerNoon.title)
+
+    const feed = [ycomHacker, hackerNoon]
 
     // const response = feed.items.map(function(item) {
     //     return item.title + item.content
     // })
 
     // console.log(response)
-
+    console.log(feed)
     res.send(feed)
 })
 
